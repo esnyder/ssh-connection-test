@@ -1,0 +1,8 @@
+machine:
+  environment:
+    SSH_USER: esnyder
+    SSH_HOST: 107.170.201.106
+
+test:
+  override:
+    - ./run-connection-attempts.sh
